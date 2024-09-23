@@ -10,7 +10,7 @@ int lampState = HIGH; // default of fo the relay
 
 void setup() {
   Serial.begin(9600);
-  WiFi.begin("Bilal","Bismillah1");
+  WiFi.begin("","");
   pinMode(lamp, OUTPUT);
 
   Serial.print("Connecting...");
